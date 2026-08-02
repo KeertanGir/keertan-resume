@@ -4,7 +4,6 @@ import { createRoot } from 'react-dom/client';
 const makeIcon = (symbol) => function Icon({ size = 18 }) {
   return <span className="svg-icon" style={{ fontSize: size }} aria-hidden="true">{symbol}</span>;
 };
-
 const ArrowUpRight = makeIcon('↗');
 const Github = makeIcon('GH');
 const Linkedin = makeIcon('in');
